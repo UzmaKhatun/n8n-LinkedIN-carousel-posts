@@ -568,8 +568,8 @@ Before setting up this workflow, you'll need:
 You'll need to set up these credentials in n8n:
 
 - `Open router n8n setup` - OpenRouter API credentials
-- `Azeema html to image` - HTML to Image API credentials
-- `LinkedIn account 2` - LinkedIn OAuth2 credentials
+- `html to image` - HTML to Image API credentials
+- `LinkedIn account` - LinkedIn OAuth2 credentials
 
 ---
 
@@ -692,26 +692,6 @@ Default is 5 slides. To change:
 
 ---
 
-## 🔒 Security & Credentials
-
-### ⚠️ Important Security Notice
-
-**The workflow JSON file contains credential references but NOT the actual secrets.** You must set up your own credentials in n8n.
-
-### Credential IDs in the Workflow
-
-These IDs reference credentials but don't expose secrets:
-- `eCHfetHriLLotBZl` - OpenRouter API reference
-- `aCKCvratzBMcKqiV` - HTML to Image API reference
-- `f4HTdzcJ6FruRpK0` - LinkedIn OAuth2 reference
-
-**Before uploading to GitHub:**
-- ✅ The provided JSON is safe to upload
-- ✅ No API keys or secrets are exposed
-- ❌ DO NOT commit any `.env` files with actual credentials
-
----
-
 ## 📁 Repository Structure
 
 ```
@@ -719,10 +699,10 @@ linkedin-carousel-automation/
 ├── README.md                 # This file
 ├── workflow.json            # n8n workflow file
 ├── .gitignore               # Git ignore file
-├── LICENSE                  # License file
-└── assets/                  # Optional: Screenshots and examples
-    ├── workflow-preview.png
-    └── sample-carousel.png
+├── pdf                      # License file
+└── screenshort/             # n8n workflow and LinkedIn post
+    ├── sreenshort_1.png
+    └── sreenshort_2.png
 ```
 
 ---
@@ -780,26 +760,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
 ## 📞 Contact & Support
 
 **Need Help?** Have questions or suggestions?
 
-- 📧 **Email**: [your.email@example.com](mailto:your.email@example.com)
-- 💼 **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/repo/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/repo/discussions)
+- 📧 **Email**: [your.email@example.com](mailto:uzmakhatun0205@gmail.com)
+- 💼 **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/uzma-khatun-88b990334/)
+- 💼 **GitHub**: [GitHub Profile](https://github.com/UzmaKhatun)
+- 💼 **Portfolio**: [Portfolio ](https://portfolio-uzmakhatun.netlify.app/)
 
 ---
 
@@ -808,7 +776,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 - **n8n** - For the amazing workflow automation platform
 - **OpenRouter** - For AI model access
 - **RSS Feed Sources** - All the enterprise storage news publications
-- **Community** - Thanks to everyone who contributed ideas and feedback
 
 ---
 
@@ -818,10 +785,10 @@ If this workflow helped you, please:
 - ⭐ Star this repository
 - 🐦 Share on Twitter/LinkedIn
 - 🔗 Link back to this repo in your content
-- ☕ [Buy me a coffee](https://buymeacoffee.com/yourhandle) (optional)
+- ☕ [Buy me a coffee](https://buymeacoffee.com/) (optional)
 
 ---
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by Uzma Khatun**
 
 *Last Updated: November 2025*
